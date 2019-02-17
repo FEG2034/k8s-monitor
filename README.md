@@ -26,13 +26,13 @@ eval $(minikube docker-env -u)
    * kubectl create -f grafana/grafana-ing.yaml
 
 **Check node-exporter**
-   * [minikube ip]:31672/metrics
+   * minikube ip:31672/metrics
 
 **Check prometheus target**
-   * [minikube ip]:30003/target
+   * minikube ip:30003/target
 
 **Check grafana**
-   * [minikube ip]:/port
+   * minikube ip:/port
    * default username/password is admin
 
 ---
