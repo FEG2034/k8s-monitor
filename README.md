@@ -34,7 +34,8 @@ eval $(minikube docker-env -u)
 **Check grafana**
    * minikube ip:/port
    * default username/password is admin
-
+   * add Data Sources
+   * import Dashbosrd >> 315 Template
 ---
 fluentd, elasticsearch, kibana
 
